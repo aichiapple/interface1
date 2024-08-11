@@ -24,7 +24,7 @@ def request_utl(method,url,headers,payloads,params=None,expect=None,run_result_t
             assert assertion
             # 将运行结果写入txt
             write_text(text_file=run_result_txt, data=res.text + "__pass|")
-            #根据sheet名返回执行结果写入excel
+            # 根据sheet名返回执行结果写入excel
             ExcelUtil(resultWriteExcel=resultWriteExcel).write_excel(resultWriteSheet=resultWriteSheet)
         else:
             write_text(text_file=run_result_txt, data=res.text + "__fail|")
