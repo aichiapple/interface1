@@ -1,0 +1,22 @@
+- actual: null
+  body: '{''username'':''qiaort'',''password'':''po4xcjK0hX8rifDZqEWecg=='',''captcha'':'''',''checkType'':''pwd'',''language'':''zh_CN_''}'
+  case_name: 登录-正常
+  expect: '{"code":200,"data":{"departmentName":"佛山分中心","errPackageId":"N","isParent":"N","isMideaUser":"Y","num":"20569566","departmentId":"a68f3553-115b-4569-93a6-4a0e723822e9","packageId":"681d9ed0-01a9-4905-9905-34dc4272221e","language":"zh_CN_","userName":"qiaort","isCheckPackage":false,"isImulate":"N","eMail":"qiaort@gdii-yueyun.com","isMa":true,"headPhoto":"https://mapnew5sit.midea.com/file/v5/app/download/561378/public/muc/photo/3822020076797952?1693984276899","trueName":"乔9814","Authorization":"Bearer
+    eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYzI3OTVmNy1hZTg2LTRlNGItYTM2Ny0zM2I0MWRmYjNhNDYsemhfQ05fLDY4MWQ5ZWQwLTAxYTktNDkwNS05OTA1LTM0ZGM0MjcyMjIxZSxxaWFvcnQiLCJpYXQiOjE3MjE0MDI1ODAsImV4cCI6MTcyMTQzMTM4MH0.luSRCSIoWRT8Qhzvk4TXdNIJcXua9tfRJ3BuUmOeRsA","id":"bc2795f7-ae86-4e4b-a367-33b41dfb3a46","packageName":"冰箱事业部","isCAI":"N"},"message":""}'
+  header: '{''Content-Type'':''application/x-www-form-urlencoded;charset=UTF-8'',''Accept'':''application/json,
+    text/plain, */*''}'
+  id: 1
+  method: post
+  url: https://cocreatinguat.midea.com/api/authorization/login
+  valiadate: null
+- actual: null
+  body: '{''username'':''qiaort'',''password'':'''',''captcha'':'''',''checkType'':''pwd'',''language'':''zh_CN_''}'
+  case_name: 登录-密码为空
+  expect: '{"code":200,"data":{"departmentName":"佛山分中心","errPackageId":"N","isParent":"N","isMideaUser":"Y","num":"20569566","departmentId":"a68f3553-115b-4569-93a6-4a0e723822e9","packageId":"681d9ed0-01a9-4905-9905-34dc4272221e","language":"zh_CN_","userName":"qiaort","isCheckPackage":false,"isImulate":"N","eMail":"qiaort@gdii-yueyun.com","isMa":true,"headPhoto":"https://mapnew5sit.midea.com/file/v5/app/download/561378/public/muc/photo/3822020076797952?1693984276899","trueName":"乔9814","Authorization":"Bearer
+    eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYzI3OTVmNy1hZTg2LTRlNGItYTM2Ny0zM2I0MWRmYjNhNDYsemhfQ05fLDY4MWQ5ZWQwLTAxYTktNDkwNS05OTA1LTM0ZGM0MjcyMjIxZSxxaWFvcnQiLCJpYXQiOjE3MjE0MDI1ODAsImV4cCI6MTcyMTQzMTM4MH0.luSRCSIoWRT8Qhzvk4TXdNIJcXua9tfRJ3BuUmOeRsA","id":"bc2795f7-ae86-4e4b-a367-33b41dfb3a46","packageName":"冰箱事业部","isCAI":"N"},"message":""}'
+  header: '{''Content-Type'':''application/x-www-form-urlencoded;charset=UTF-8'',''Accept'':''application/json,
+    text/plain, */*''}'
+  id: 2
+  method: post
+  url: https://cocreatinguat.midea.com/api/authorization/login
+  valiadate: null

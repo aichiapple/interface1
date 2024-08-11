@@ -1,0 +1,7 @@
+cases:
+  body: '{"username":"qiaort","password":"po4xcjK0hX8rifDZqEWecg==","captcha":"","checkType":"pwd","language":"zh_CN_"}'
+  casename: 测试登录
+  head: '{Content-Type:text/html;charset=UTF-8}'
+  id: 1
+  method: post
+  url: https://cocreatinguat.midea.com/api/authorization/login
